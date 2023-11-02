@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+}
+
+html,
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.left,
+.right {
+  min-width: 50%;
+  width: 500px;
+  height: 100%;
+  gap: 10px;
+  padding: 10px;
+}
+
+.left form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left form .input-pane {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.left form .input-pane input {
+  width: 50%;
+}
+.left form .actions-pane {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.right table thead tr th {
+  border-collapse: collapse;
+  padding-inline: 10px;
+}
